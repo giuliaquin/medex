@@ -1,18 +1,20 @@
 <template>
-  <section id="about-us">
-    <h1 class="section-title">Chi siamo</h1>
-    <div class="grid grid-cols-2 gap-4">
+  <section id="about-us" class="bg-gray-900 px-5 py-8 text-white">
+    <SectionTitle title="Chi siamo" step="01" color="white" />
+    <div class="grid grid-cols-3">
       <div>
-        Siamo un'azienda di sviluppo software. Offriamo soluzioni semplici,
-        efficaci e su misura. Siamo un'azienda condotta da giovani
-        all'avanguardia che garantiscono qualità, innovazione nello sviluppo
-        delle nostre soluzioni.
+        <img src="/img/highlight.jpg" class="rounded-lg" alt="" />
       </div>
-
-      <div>x</div>
+      <div class="col-span-2 px-6">
+        <h2 class="text-6xl">We are happy to help crafting your ideas</h2>
+        <hr class="my-6" />
+        <p class="text-xl">
+          Siamo un'azienda di sviluppo software. Offriamo soluzioni semplici,
+          efficaci e su misura. Siamo un'azienda condotta da giovani
+          all'avanguardia che garantiscono qualità, innovazione nello sviluppo
+          delle nostre soluzioni.
+        </p>
+      </div>
     </div>
-
-    <br /><br />
-    <br /><br />
   </section>
 </template>

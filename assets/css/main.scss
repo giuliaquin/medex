@@ -4,27 +4,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
 
+:root {
+  --background: #341334;
+  --accent: #6ba5b1;
+}
+
 .font-cinzel {
-    font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', serif;
 }
 
 //linear-gradient(to bottom, #9f75e6, #8241f9)
 
-body {
-    background: #8241f9;
-}
-
-h1.section-title {
-    // background: linear-gradient(to right, #9f75e6, #8241f9);
-    background: #8241f9;
-    padding: 8px 16px 8px 24px;
-    border-radius: 0 50px 50px 0;
-    color: white;
-    max-width: 300px;
-    width: 100%;
-    font-size: 1.3rem;
-    font-family: 'Cinzel', serif;
-    margin-left: -24px;
-    font-weight: bold;
-    margin-bottom: 16px;
+.image-highlighted {
+  @apply rounded-lg bg-center p-4 text-white;
+  background-image: url(/img/highlight.jpg);
 }

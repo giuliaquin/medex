@@ -1,35 +1,31 @@
 <template>
-  <div
-    class="sticky top-0"
-    style="background: linear-gradient(to bottom, #9f75e6, #8241f9)"
-  >
+  <div class="sticky top-0 bg-white" style="z-index: 1000">
     <div class="mx-auto max-w-7xl px-6">
       <div
         class="flex items-center justify-between py-3 md:justify-start md:space-x-10"
       >
-        <div class="flex justify-start lg:w-0 lg:flex-1 items-center">
+        <div class="flex items-center justify-start lg:w-0 lg:flex-1">
           <a href="#">
-            <span class="sr-only">Medex Labs</span>
+            <span class="sr-only">Medex Lab</span>
             <img class="h-10 w-auto sm:h-16" src="/logo.webp" alt="" />
           </a>
-          <h1 class="text-2xl ml-3 text-white font-cinzel font-bold">
-            Medex Labs
-          </h1>
+          <h1 class="font-cinzel ml-3 text-2xl font-bold">Medex Lab</h1>
         </div>
-        <nav class="hidden space-x-10 md:flex justify-end">
-          <a href="#" class="text-base font-medium text-white hover:text-black">
-            Home
-          </a>
-          <a href="#" class="text-base font-medium text-white hover:text-black">
+        <nav class="hidden justify-end space-x-10 md:flex">
+          <a href="#" class="text-base font-medium hover:text-white"> Home </a>
+          <a href="#" class="text-base font-medium hover:text-white">
             Chi siamo
           </a>
-          <a href="#" class="text-base font-medium text-white hover:text-black">
+          <a href="#" class="text-base font-medium hover:text-white">
             Servizi
           </a>
-          <a href="#" class="text-base font-medium text-white hover:text-black">
+          <a href="#" class="text-base font-medium hover:text-white">
             Contatti
           </a>
         </nav>
+        <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
+          <LocalePicker />
+        </div>
       </div>
     </div>
   </div>

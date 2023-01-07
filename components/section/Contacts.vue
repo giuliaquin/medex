@@ -1,17 +1,20 @@
 <template>
-  <section id="contacts">
-    <h1 class="section-title">Contatti</h1>
-    <div class="flex w-100">
-      <div class="flex-1 border text-center">App</div>
-      <div class="flex-1 border text-center">Consulenza</div>
-      <div class="flex-1 border text-center">Cloud</div>
+  <section id="contacts" class="mb-8 px-5">
+    <SectionTitle title="Contatti" step="03" />
+    <div class="grid grid-cols-2 gap-4">
+      <div>
+        <iframe
+          width="100%"
+          height="350"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          style="border-radius: 50px"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=8.982841372489931%2C44.44077778092024%2C8.985958099365236%2C44.44238255314694&amp;layer=mapnik&amp;marker=44.44158017254356%2C8.984399735927582"
+        ></iframe>
+      </div>
+      <div></div>
     </div>
-    <br /><br />
-    <br /><br />
-    <br /><br />
-    <br /><br />
-    <br /><br />
-    <br /><br />
-    <br /><br />
   </section>
 </template>
