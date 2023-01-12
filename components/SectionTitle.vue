@@ -1,5 +1,5 @@
 <template>
-  <h1 class="font-cinzel mb-8 text-xl font-bold">
+  <h1 class="font-cinzel mb-10 text-xl font-bold">
     <!-- <span class="inline-block p-3 text-center">{{ step }}</span> -->
     <span class="px-6 py-3">{{ title }}</span>
   </h1>
