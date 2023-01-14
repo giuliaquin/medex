@@ -1,15 +1,20 @@
 <template>
   <div class="flex">
-    <img
+    <button
       v-for="lang in languages"
       :key="lang.code"
-      :src="`/flags/${lang.code}.svg`"
-      class="ml-1 rounded-full border-2"
-      :class="lang.code === active ? 'border-fuchsia-800' : 'border-gray-500'"
-      style="width: 32px"
-      :alt="label"
-      @click="active = lang.code"
-    />
+      class="ml-1 rounded-full"
+      :class="lang.code === active ? 'border-fuchsia-800' : 'border-gray-300'"
+      style="border-width: 3px"
+    >
+      <img
+        :src="`/flags/${lang.code}.svg`"
+        class="rounded-full border border-white"
+        style="width: 32px"
+        :alt="label"
+        @click="active = lang.code"
+      />
+    </button>
   </div>
 </template>
 
