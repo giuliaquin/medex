@@ -10,7 +10,9 @@
       </h1>
       <p>
         <a href="#contacts" class="font-cinzel text-lg font-extrabold">
-          <span class="border-b-2 border-black"> Fissa un appuntamento </span>
+          <span class="border-b-2 border-black">
+            {{ $t('home.appointment') }}
+          </span>
           <svg
             class="ml-2 inline-block h-6 w-6"
             xmlns="http://www.w3.org/2000/svg"

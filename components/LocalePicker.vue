@@ -1,18 +1,20 @@
 <template>
   <div class="flex">
     <button
-      v-for="lang in languages"
-      :key="lang.code"
+      v-for="locale in $i18n.locales"
+      :key="locale.code"
       class="ml-1 rounded-full"
-      :class="lang.code === active ? 'border-fuchsia-800' : 'border-gray-300'"
+      :class="
+        locale.code === $i18n.locale ? 'border-fuchsia-800' : 'border-gray-300'
+      "
       style="border-width: 3px"
+      @click.prevent.stop="$i18n.setLocale(locale.code)"
     >
       <img
-        :src="`/flags/${lang.code}.svg`"
+        :src="`/flags/${locale.code}.svg`"
         class="rounded-full border border-white"
         style="width: 32px"
-        :alt="label"
-        @click="active = lang.code"
+        :alt="locale.label"
       />
     </button>
   </div>
@@ -21,8 +23,7 @@
 <script>
 export default defineComponent({
   data: () => ({
-    active: 'it',
-    languages: [
+    locales: [
       { code: 'it', label: 'Italian' },
       { code: 'gb', label: 'English' },
       { code: 'se', label: 'Swedish' },

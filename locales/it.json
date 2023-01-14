@@ -1,0 +1,25 @@
+{
+  "navbar": {
+    "home": "Home",
+    "aboutUs": "Chi siamo",
+    "services": "Servizi",
+    "contacts": "Contatti"
+  },
+  "home": {
+    "appointment": "Fissa un appuntamento"
+  },
+  "aboutUs": {
+    "title": "Siamo felici di aiutarti a creare le tue idee",
+    "message": "Siamo un'azienda di sviluppo software. Offriamo soluzioni semplici, efficaci e su misura. Siamo un'azienda condotta da giovani all'avanguardia che garantiscono qualità, innovazione nello sviluppo delle nostre soluzioni."
+  },
+  "services": {
+    "app": "Applicazioni",
+    "appText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto molestias voluptates cupiditate eos ea itaque quasi nulla vero mollitia inventore, dicta dolores incidunt explicabo nihil, quae deserunt sequi ad recusandae",
+    "consultancy": "Consulenza",
+    "consultancyText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto molestias voluptates cupiditate eos ea itaque quasi nulla vero mollitia inventore, dicta dolores incidunt explicabo nihil, quae deserunt sequi ad recusandae",
+    "cloud": "Cloud",
+    "cloudText": "Conosciamo molto bene Amazon AWS e Microsoft Azure. Le nostre soluzioni sfruttano al meglio entrambi i servizi",
+    "translations": "Traduzioni",
+    "translationsText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto molestias voluptates cupiditate eos ea itaque quasi nulla vero mollitia inventore, dicta dolores incidunt explicabo nihil, quae deserunt sequi ad recusandae"
+  }
+}

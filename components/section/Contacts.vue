@@ -1,6 +1,6 @@
 <template>
   <section id="contacts" class="mx-auto mb-8 max-w-7xl px-5">
-    <SectionTitle title="Contatti" step="03" />
+    <SectionTitle :title="$t('navbar.contacts')" step="03" />
     <div class="grid grid-cols-2 gap-4">
       <div>
         <iframe

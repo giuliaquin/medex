@@ -12,15 +12,17 @@
           <h1 class="font-cinzel ml-3 text-2xl font-bold">Medex Lab</h1>
         </div>
         <nav class="hidden justify-end space-x-10 md:flex">
-          <a href="#" class="text-base font-medium hover:text-white"> Home </a>
           <a href="#" class="text-base font-medium hover:text-white">
-            Chi siamo
+            {{ $t('navbar.home') }}
           </a>
           <a href="#" class="text-base font-medium hover:text-white">
-            Servizi
+            {{ $t('navbar.aboutUs') }}
           </a>
           <a href="#" class="text-base font-medium hover:text-white">
-            Contatti
+            {{ $t('navbar.services') }}
+          </a>
+          <a href="#" class="text-base font-medium hover:text-white">
+            {{ $t('navbar.contacts') }}
           </a>
         </nav>
         <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
