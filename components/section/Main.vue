@@ -1,5 +1,9 @@
 <template>
-  <div class="grid content-center px-5 md:px-10" style="height: 600px">
+  <section
+    id="home"
+    class="grid content-center px-5 md:px-10"
+    style="height: 600px"
+  >
     <div>
       <h1
         class="font-cinzel mb-4 inline-block text-2xl font-extrabold md:mb-12 md:text-3xl lg:text-5xl"
@@ -30,5 +34,5 @@
         </a>
       </p>
     </div>
-  </div>
+  </section>
 </template>

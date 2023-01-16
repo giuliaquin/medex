@@ -1,5 +1,5 @@
 <template>
-  <section id="services" class="mx-auto max-w-7xl bg-white px-5 pb-10 pt-6">
+  <section id="products" class="mx-auto max-w-7xl bg-white px-5 pb-10 pt-6">
     <SectionTitle :title="$t('navbar.products')" step="02" />
 
     <div class="grid grid-cols-4 gap-5 text-center">
