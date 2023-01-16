@@ -2,9 +2,13 @@
   <Header />
 
   <SectionMain />
-  <SectionAboutUs />
+
+  <SectionWhyChoose />
 
   <SectionServices />
+  <SectionProducts />
+
+  <SectionAboutUs />
 
   <SectionContacts />
 

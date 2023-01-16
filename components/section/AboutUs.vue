@@ -1,5 +1,5 @@
 <template>
-  <section id="about-us" class="bg-gray-900 px-5 py-8 text-white">
+  <section id="about-us" class="bg-gray-900 px-5 py-10 text-white">
     <div class="mx-auto max-w-7xl">
       <SectionTitle :title="$t('navbar.aboutUs')" step="01" color="white" />
       <div class="grid grid-cols-3">
