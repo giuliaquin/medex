@@ -2,14 +2,23 @@
   "navbar": {
     "home": "Home",
     "aboutUs": "About Us",
+    "whyChoose": "Perchè sceglierci",
+    "products": "Prodotti",
     "services": "Services",
     "contacts": "Contacts"
+  },
+  "footer": {
+    "motto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
   },
   "home": {
     "appointment": "Reserve an appiontment"
   },
   "aboutUs": {
     "title": "We are happy to help crafting your ideas",
+    "message": "Siamo un'azienda di sviluppo software. Offriamo soluzioni semplici, efficaci e su misura. Siamo un'azienda condotta da giovani all'avanguardia che garantiscono qualità, innovazione nello sviluppo delle nostre soluzioni."
+  },
+  "whyChoose": {
+    "title": "Siamo felici di aiutarti a creare le tue idee",
     "message": "Siamo un'azienda di sviluppo software. Offriamo soluzioni semplici, efficaci e su misura. Siamo un'azienda condotta da giovani all'avanguardia che garantiscono qualità, innovazione nello sviluppo delle nostre soluzioni."
   },
   "services": {
