@@ -6,7 +6,7 @@
         <div class="col-span-2 pr-6">
           <h2 class="text-6xl">{{ $t('whyChoose.title') }}</h2>
           <hr class="my-6" />
-          <p class="text-">
+          <p class="text-2xl">
             {{ $t('whyChoose.message') }}
           </p>
         </div>

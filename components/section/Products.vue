@@ -16,7 +16,7 @@
         <h2>Systa</h2>
       </div>
       <div class="card">
-        <img src="/img/products/wowdrobe.png" alt="" />
+        <img src="/img/products/guidami.jpg" alt="" />
         <h2>Guidami</h2>
       </div>
     </div>

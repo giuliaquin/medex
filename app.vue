@@ -8,9 +8,9 @@
   <SectionServices />
   <SectionProducts />
 
-  <SectionAboutUs />
-
   <SectionContacts />
+
+  <SectionAboutUs />
 
   <Footer />
 </template>

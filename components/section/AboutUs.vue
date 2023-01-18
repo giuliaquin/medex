@@ -1,7 +1,7 @@
 <template>
-  <section id="about-us" class="bg-gray-900 px-5 py-10 text-white">
+  <section id="about-us" class="px-5 py-10">
     <div class="mx-auto max-w-7xl">
-      <SectionTitle :title="$t('navbar.aboutUs')" step="01" color="white" />
+      <SectionTitle :title="$t('navbar.aboutUs')" step="01" />
       <div class="grid grid-cols-3">
         <div>
           <img src="/img/highlight.jpg" class="rounded-lg" alt="" />

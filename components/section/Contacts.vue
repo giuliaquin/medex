@@ -1,20 +1,24 @@
 <template>
-  <section id="contacts" class="mx-auto mb-8 max-w-7xl px-5 py-10">
-    <SectionTitle :title="$t('navbar.contacts')" step="03" />
-    <div class="grid grid-cols-2 gap-4">
-      <div>
-        <iframe
-          width="100%"
-          height="350"
-          frameborder="0"
-          scrolling="no"
-          marginheight="0"
-          marginwidth="0"
-          class="rounded-lg"
-          src="https://www.openstreetmap.org/export/embed.html?bbox=8.982841372489931%2C44.44077778092024%2C8.985958099365236%2C44.44238255314694&amp;layer=mapnik&amp;marker=44.44158017254356%2C8.984399735927582"
-        ></iframe>
+  <section id="contacts" class="mb-8 bg-gray-900 px-5 py-10 text-white">
+    <div class="mx-auto max-w-7xl">
+      <SectionTitle :title="$t('navbar.contacts')" step="03" color="white" />
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <iframe
+            width="100%"
+            height="350"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=8.92167091369629%2C44.40636990506554%2C8.924117088317873%2C44.40772461196222&amp;layer=mapnik&amp;marker=44.4070472624357%2C8.92289400100708"
+            class="rounded-lg"
+          />
+        </div>
+        <div class="px-4 text-xl">
+          <ContactLinks />
+        </div>
       </div>
-      <div></div>
     </div>
   </section>
 </template>
