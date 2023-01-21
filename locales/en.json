@@ -2,19 +2,19 @@
   "navbar": {
     "home": "Home",
     "aboutUs": "About Us",
-    "whyChoose": "Perchè sceglierci",
-    "products": "Prodotti",
+    "whyChoose": "Why us",
+    "products": "Products",
     "services": "Services",
     "contacts": "Contacts"
   },
   "footer": {
-    "motto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    "motto": "Where computer language and international language blend perfectly to guarantee you the best solution at the highest linguistic level on the market."
   },
   "home": {
     "appointment": "Book an appiontment"
   },
   "aboutUs": {
-    "title": "We are happy to help crafting your ideas",
+    "title": "We are glad to help you crafting your ideas",
     "message": "Siamo un'azienda di sviluppo software. Offriamo soluzioni semplici, efficaci e su misura. Siamo un'azienda condotta da giovani all'avanguardia che garantiscono qualità, innovazione nello sviluppo delle nostre soluzioni."
   },
   "whyChoose": {
