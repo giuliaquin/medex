@@ -8,27 +8,40 @@
     "contacts": "Contacts"
   },
   "footer": {
-    "motto": "Where computer language and international language blend perfectly to guarantee you the best solution at the highest linguistic level on the market."
+    "motto": "Where computer language and international language blend perfectly to guarantee you the best solution at the highest linguistic level on the market.",
+    "useful": {
+      "title": "Link utili",
+      "pricing": "Prezzi",
+      "cookie": "Cookie",
+      "help": "Aiuto"
+    },
+    "contacts": "Contatti",
+    "saluti": "Grazie per aver visitato il nostro sito. Il nostreo team è pronto a rispondere alle vostre curiosità.\n Scrivici e saremo felici di aiutarti!"
   },
   "home": {
     "appointment": "Book an appiontment"
   },
   "aboutUs": {
     "title": "We are glad to help you crafting your ideas",
-    "message": "Siamo un'azienda di sviluppo software. Offriamo soluzioni semplici, efficaci e su misura. Siamo un'azienda condotta da giovani all'avanguardia che garantiscono qualità, innovazione nello sviluppo delle nostre soluzioni."
+    "message": "We are a software development company. We offer simple, effective and tailor-made solutions. We are a company run by cutting-edge young people who guarantee quality and innovation in the development of our solutions"
   },
   "whyChoose": {
-    "title": "Siamo felici di aiutarti a creare le tue idee",
-    "message": "Siamo un'azienda di sviluppo software. Offriamo soluzioni semplici, efficaci e su misura. Siamo un'azienda condotta da giovani all'avanguardia che garantiscono qualità, innovazione nello sviluppo delle nostre soluzioni."
+    "title": "We give shape to your ideas",
+    "inno": "Innovation:",
+    "innomsg": "Latest generation innovative software, just like us 😜",
+    "flex": "Flexibility:",
+    "flexmsg": "We easily adapt to the requirements of our customers and partners",
+    "intern": "International:",
+    "internmsg": "Our software are in Italian, English, Swedish, French and Spanish with the highest linguistic level on the market"
   },
   "services": {
-    "app": "Applications",
-    "appText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto molestias voluptates cupiditate eos ea itaque quasi nulla vero mollitia inventore, dicta dolores incidunt explicabo nihil, quae deserunt sequi ad recusandae",
-    "consultancy": "consultancy",
-    "consultancyText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto molestias voluptates cupiditate eos ea itaque quasi nulla vero mollitia inventore, dicta dolores incidunt explicabo nihil, quae deserunt sequi ad recusandae",
+    "app": "Tailor-made app",
+    "appText": "We can control as many cloud environments as you like, across multiple platforms. We create not only different environments in the same platform, but many environments in different platforms or many applications in one platform. It all depends on your needs and the requirements of your application",
+    "consultancy": "Consulenza",
+    "consultancyText": "We offer IT consulting services that will help you improve your software architecture, create a technology-driven digital strategy, and improve operations by optimizing your software tools. Our software engineers will finish your digital transformation journey through careful planning and effective execution of the described IT strategy.",
     "cloud": "Cloud",
-    "cloudText": "We are very familiar with Amazon AWS and Microsoft Azure. Our solutions make the most of both services.",
-    "translations": "Translations",
-    "translationsText": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto molestias voluptates cupiditate eos ea itaque quasi nulla vero mollitia inventore, dicta dolores incidunt explicabo nihil, quae deserunt sequi ad recusandae"
+    "cloudText": "We are very familiar with Amazon AWS and Microsoft Azure. Our solutions make the most of both services. We help companies define a migration strategy to the Cloud, accompanying them from the assessment phase (with our kickstart path) to the migration phase and finally the optimization phase. ",
+    "translations": "Traduzioni",
+    "translationsText": "We not only offer tailor-made websites and applications, but also in different language combinations. Guaranteeing, thanks to our mother tongue specialists, the highest linguistic level on the market. We also offer intensive learning and language refresher courses for you and your employees in English, French, Swedish, Spanish and Italian. "
   }
 }
