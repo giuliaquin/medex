@@ -2,7 +2,7 @@
   <section id="services" class="mx-auto max-w-7xl bg-white px-5 py-10">
     <SectionTitle :title="$t('navbar.services')" step="02" />
 
-    <div class="grid grid-cols-4 gap-5 text-center">
+    <div class="grid gap-5 py-6 text-center md:grid-cols-4">
       <div class="card">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@
 
 <style scoped lang="scss">
 .card {
-  @apply rounded-lg border-2 border-black p-2;
+  @apply rounded-lg border-2 border-black p-4;
   svg {
     @apply mx-auto mb-4 h-14 w-14;
   }

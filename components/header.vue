@@ -16,7 +16,7 @@
             v-for="item in menuItems"
             :key="item.href"
             :href="item.href"
-            class="text-base font-medium hover:text-white"
+            class="text-base font-medium hover:font-bold"
           >
             {{ item.title }}
           </a>
@@ -125,8 +125,8 @@ export default defineComponent({
           href: '#home',
         },
         {
-          title: this.$t('navbar.whyChoose'),
-          href: '#why-choose',
+          title: this.$t('navbar.aboutUs'),
+          href: '#about-us',
         },
         {
           title: this.$t('navbar.services'),
@@ -137,12 +137,12 @@ export default defineComponent({
           href: '#products',
         },
         {
-          title: this.$t('navbar.contacts'),
-          href: '#contacts',
+          title: this.$t('navbar.whyChoose'),
+          href: '#why-choose',
         },
         {
-          title: this.$t('navbar.aboutUs'),
-          href: '#about-us',
+          title: this.$t('navbar.contacts'),
+          href: '#contacts',
         },
       ];
     },

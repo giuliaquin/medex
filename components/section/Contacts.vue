@@ -2,7 +2,7 @@
   <section id="contacts" class="mb-8 bg-gray-900 px-5 py-10 text-white">
     <div class="mx-auto max-w-7xl">
       <SectionTitle :title="$t('navbar.contacts')" step="03" color="white" />
-      <div class="grid grid-cols-2 gap-4">
+      <div class="grid gap-4 md:grid-cols-2">
         <div>
           <iframe
             width="100%"
@@ -16,6 +16,7 @@
           />
         </div>
         <div class="px-4 text-xl">
+          <p class="mb-10 text-2xl">{{ $t('footer.saluti') }}</p>
           <ContactLinks />
         </div>
       </div>

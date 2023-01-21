@@ -1,8 +1,8 @@
 <template>
   <section
     id="home"
-    class="grid content-center px-5 md:px-10"
-    style="height: 600px"
+    class="grid content-center bg-cover bg-no-repeat px-5 md:px-10"
+    style="height: 600px; background-image: url(/img/hexabg.jpg)"
   >
     <div>
       <h1

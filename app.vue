@@ -3,14 +3,15 @@
 
   <SectionMain />
 
-  <SectionWhyChoose />
+  <SectionAboutUs />
 
   <SectionServices />
+
   <SectionProducts />
 
-  <SectionContacts />
+  <SectionWhyChoose />
 
-  <SectionAboutUs />
+  <SectionContacts />
 
   <Footer />
 </template>

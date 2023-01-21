@@ -8,18 +8,31 @@
     "contacts": "Contatti"
   },
   "footer": {
-    "motto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    "motto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "useful": {
+      "title": "Link utili",
+      "pricing": "Prezzi",
+      "cookie": "Cookie",
+      "help": "Aiuto"
+    },
+    "contacts": "Contatti",
+    "saluti": "Grazie per aver visitato il nostro sito. Il nostreo team è pronto a rispondere alle vostre curiosità.\n Scrivici e saremo felici di aiutarti!"
   },
   "home": {
     "appointment": "Fissa un appuntamento"
   },
   "aboutUs": {
     "title": "Siamo felici di aiutarti a creare le tue idee",
-    "message": "Siamo un'azienda di sviluppo software. Offriamo soluzioni semplici, efficaci e su misura. Siamo un'azienda condotta da giovani all'avanguardia che garantiscono qualità, innovazione nello sviluppo delle nostre soluzioni."
+    "message": "Siamo un'azienda di sviluppo software. Offriamo soluzioni semplici, efficaci e su misura. Siamo un'azienda condotta da giovani all'avanguardia che garantiscono qualità, innovazione nello sviluppo delle nostre soluzioni. Sviluppiamo codice per creare soluzioni semplici e affidabili. la qualità e l'alta tecnologia sono i pilastri che sostengono lo sviluppo delle nostre soluzioni. Condividiamo con i nostri partner tutte le fasi della produzione del software per essere sempre sulla stessa lunghezza d'onda."
   },
   "whyChoose": {
-    "title": "Siamo felici di aiutarti a creare le tue idee",
-    "message": "Siamo un'azienda di sviluppo software. Offriamo soluzioni semplici, efficaci e su misura. Siamo un'azienda condotta da giovani all'avanguardia che garantiscono qualità, innovazione nello sviluppo delle nostre soluzioni."
+    "title": "Diamo forma alle tue idee",
+    "inno": "Innovatività:",
+    "innomsg": "Software innovativi di ultima generazione, proprio come noi 😜",
+    "flex": "Flessibilità:",
+    "flexmsg": "Ci adattiamo con facilità ai requisiti dei nostri clienti e partner",
+    "intern": "Internazionalità:",
+    "internmsg": " offriamo i nostri software in italiano, inglese, svedese, francese e spagnolo con il più alto livello linguistico sul mercato"
   },
   "services": {
     "app": "Applicazioni",

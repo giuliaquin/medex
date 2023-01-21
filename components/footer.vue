@@ -32,23 +32,29 @@
             <h6
               class="mb-4 flex justify-center font-semibold uppercase md:justify-start"
             >
-              Useful links
+              {{ $t('footer.useful.title') }}
             </h6>
             <p class="mb-2">
-              <a href="#!" class="text-gray-600">Pricing</a>
+              <a href="#!" class="text-gray-600">{{
+                $t('footer.useful.pricing')
+              }}</a>
             </p>
             <p class="mb-2">
-              <a href="#!" class="text-gray-600">Settings</a>
+              <a href="#!" class="text-gray-600">{{
+                $t('footer.useful.cookie')
+              }}</a>
             </p>
             <p>
-              <a href="#!" class="text-gray-600">Help</a>
+              <a href="#!" class="text-gray-600">{{
+                $t('footer.useful.help')
+              }}</a>
             </p>
           </div>
           <div>
             <h6
               class="mb-2 flex justify-center font-semibold uppercase md:justify-start"
             >
-              Contact
+              {{ $t('footer.contacts') }}
             </h6>
             <ContactLinks />
           </div>
